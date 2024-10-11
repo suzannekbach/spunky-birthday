@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1>Hi! Welcome To the Virtual Birthday Card ™️</h1>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="index.js"></script>
+
+		<div class="intro">
+        	<p> This is a choose your own adventure birthday card.<br>
+        		Would you like a regular, normal birthday phrase or
+				would you prefer one with a little bit of ✨spunk✨?
+			</p>
+		</div>
+		<div class="text-center">
+			<button class="button" id=normal> normal :/</button>
+	    	<button class="button" id=spunky> spunkify it <:-) </button>
+	    </div>
+
+	    <div class="waitToShow" id=normalMessage>
+	    	<p> Happy birthday, Hannah! 🎉</p>
+	    </div>
+
+	    <div class="waitToShow" id=spunkyMessageIntro>
+	    	<p>	Great choice! Of the following words: <br>
+	    		<span class="spunkyWords" id="words"></span>
+	    		<br> which is your favorite? <br>
+	    		If none of those words seem cool enough, teach  me something new: <br>
+	    		<input class="text-center" id="spunkyWordInput" type="text"> <br><br>
+	    		<button class="button" id="spunkyWordButton"> Submit my spunky word! </button>
+	    </div>
+
+	    <div class="waitToShow" id=schmunkifiedMessage>
+	    	<p>	We've got 
+	    		<span class="spunkyWord" id="randomCoolWord"></span> situation on our hands, folks! <br>
+	    		In fact, I'd go as far as to say it's <span class="spunkyWords" id="wordToSchmunkify1"></span>! <br>
+	    		<span class="spunkyWords" id="wordToSchmunkify2"></span>, <span class="spunkyWords" id="schmunkifiedWord"></span>, fr, fr.
+	    		<br>
+	    		<p> Happy birthday, Hannah! 🎉</p>
+	    </div>
+	</body>
+</html>
